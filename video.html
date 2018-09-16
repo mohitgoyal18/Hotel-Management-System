@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="video.css"/>
+<link rel="stylesheet" type="text/css" href="dhtmlxcalendar.css"/>
+	
+<script src="dhtmlxcalendar.js"></script>
+	
+<style>
+		#calendar,
+		#calendar2,
+		 	{
+			border: 1px solid #909090;
+			font-family: Tahoma;
+			font-size: 12px;
+			}
+</style>
+	<script>
+		var myCalendar;
+		function doOnLoad() 
+			{
+			myCalendar = new dhtmlXCalendarObject(["calendar","calendar2",]);
+			}
+	</script
+</head>
+<body onload="doOnLoad();">
+<div id="holder"><a href="https://www.co.in"><img src="images/22.jpg" width="200px" height="100px"/></a>
+	 <div id="header">
+     
+	<ul>
+    	<li><a href="login.html">Login</a></li>
+    	<li><a href="overview.html">Overview</a></li>
+    	<li><a href="rest/index.html">Restaurant</a></li>
+    	<li><a href="book.html">Booking</a></li>
+        <li><a href="index.html">Home</a></li>
+    	</ul>
+    </div><!--header -->
+	<div id="ab">
+    <div id="check">
+    <br>
+	<form action="check.php" method="post">
+		<div style="position:relative;height:80px;">
+		<label for="in">Check in:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+            		<input id="calendar" name="check in" placeholder="2015/06/02" required="" type="text"> <br><br>
+		
+		<label for="in">Check in:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+            		<input id="calendar2" name="check in" placeholder="2015/06/02" required="" type="text"> <br><br>
+		
+		</div>
+			Room Type:
+                <select name="room">
+                    <option value="A/C">A/C</option>
+        			<option value="Non-A/C">Non-A/C</option>
+                </select>
+                <select name="type">
+                    <option value="single">Single</option>
+					<option value="double">Double</option>
+                    <option value="three">Three</option>
+                </select>
+	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="submit" name="submit" value="submit" />
+	<input type="reset" name="reset" value="Reset" />
+</form>
+   </div><!--chack -->
+   &nbsp;
+   <div id="chat">
+    	<form action="" method="post">
+				<label for="in">Chat</label> 
+					<input id="chat" name="chat" placeholder="message" required=""> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="submit" name="submit" value="submit" />
+				</form>
+    </div><!--chat-->
+	<br>
+	<br>
+    <div id="fd"> 
+				<form action="feedback.php" method="post">
+				<label for="in">Feedback</label> 
+					<input id="fd" name="feed" placeholder="Type message" required=""> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="submit" name="submit" value="submit" />
+				</form>
+	</div><!--fd-->
+	</div><!--ab-->
+<div id="video">
+	<video width="320" height="240" controls autoplay>
+	<source src="123.mp4" type="video/mp4">
+	<source src="123.ogg" type="video/ogg">
+	</video>
+</div><!--video-->
+<div id="rest">
+    	<h1>Special Dishes</h1>
+        	<div id="a3">
+            </div>
+            <div id="b3">
+		<a href="#"></a>
+            </div>
+            <div id="c3">
+            </div>
+	</div><!--rest-->
+</div><!--holder-->
+</body>
+</html>

@@ -1,0 +1,140 @@
+body{
+	margin:0px;
+	padding:0px;
+	}
+#holder{
+	border:0px solid;
+	width:1365px;
+	height:auto;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+#header{
+	background-image:url(images/11.jpg);
+	background-repeat:no-repeat;
+	border:1px solid;
+	width:1360px;
+	height:100px;
+	margin-top:-100px;
+	margin-right:0px;
+	margin-left:0px;
+	}
+#header ul{
+	list-style:none;
+	}
+#header ul li a{
+	border:3px solid;
+	font-size:18px;
+	float:right;
+	background-color:#FFD700;
+	width:110px;
+	height:50px;
+	text-align:center;
+	margin:0px 10px 0px 10px;
+	font-weight:bold;
+	line-height:50px;
+	border-radius:50px;
+	transition-property:all;
+	transition-duration:0.4s;
+	transition-timing-function:linear;
+	}	
+#header ul li a{
+	text-decoration:none;
+	color:white;
+	}
+#header ul li a:hover{
+			background-color:#00FF7F;
+			color:#4b388a;
+			
+			}
+#header ul li a:active{
+	background-color:#00FFFF;
+}
+#ab{
+	background-image:url("images/17.jpg");
+	border:0px solid;
+	width:285px;
+	height:550px;
+	margin-top:0px;
+	margin-bottom:auto;
+	}
+#check{
+	border:0px solid;
+	color:#FF0;
+	width:285px;
+	height:200px;
+	margin-left:6px;
+	margin-right:0px;
+	margin-bottom:auto;
+	margin-top:2px;
+	
+	}
+#chat{
+	margin-left:10px;
+	width:180px;
+	height:100px;
+	color:#FF0;
+	}
+#fd{
+	margin-left:10px;
+	width:180px;
+	height:100px;
+	color:#FF0;
+	}
+#book{
+	background-image:url(images/11.jpg);
+	text-align:center;
+	width:819px;
+	height:550px;
+	margin-top:-572px;
+	margin-left:288px;
+	} 
+#a1{
+	border:20px solid yellow;
+	width:500px;
+	height:400px;
+	margin-left:130px;
+	background-color:#FFF380;
+	} 
+#rest{
+	background-image:url("images/17.jpg");
+	border:0px solid;
+	width:250px;
+	height:550px;
+	text-align:center;
+	margin-left:1110px;
+	margin-top:-572px;
+	margin-bottom:auto;
+	margin-right:auto;
+	}
+#a3{
+	border:1px solid;
+	width:248px;
+	height:160px;
+	background-image:url("images/x.jpg");
+	background-size:247px;
+	background-repeat:no-repeat;
+	margin-top:-2px;
+	
+	
+	}
+#b3{
+	border:1px solid;
+	width:248px;
+	height:160px;
+	background-image:url("images/y.jpg");
+	background-size:247px;
+	background-repeat:no-repeat;
+	
+	}
+#c3{
+	border:1px solid;
+	width:248px;
+	height:170px;
+	background-image:url("images/z.jpg");
+	background-size:247px;
+	background-repeat:no-repeat;
+	
+}
